@@ -1,0 +1,20 @@
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+
+# Temporary and log files
+*.log
+*.tmp
+
+# Windows and editor files
+Thumbs.db
+.DS_Store
+
+# Private backups
+*.bak
+*.sql.zip
+# Database credentials
+connection.php
+check_connection.php
